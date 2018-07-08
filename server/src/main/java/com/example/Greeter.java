@@ -13,7 +13,8 @@ public class Greeter {
   }
 
   /**
-  *This is abstract function.
+  *@param: Someone the name of a person.
+  *@return: greeting string.
   */
   public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
